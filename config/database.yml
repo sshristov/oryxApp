@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: oryxapp_developmentdb
+  pool: 5
+  username: oryxapp_developmentdb
+  password: Ana86Nas
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: oryxapp_testdb
+  pool: 5
+  username: oryxapp_testdb
+  password: Ana86Nas
